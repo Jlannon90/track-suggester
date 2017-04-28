@@ -3,6 +3,8 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Rationale" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
@@ -10,8 +12,8 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Track Suggester Quiz</h1>
-      <h5>Find the Epicodus track that is right for you!</h5>
+      <h1><i id="iconOne" class="fa fa-folder-open" aria-hidden="true"></i><i id="iconTwo" class="fa fa-file-code-o" aria-hidden="true"></i>Track Suggester Quiz<i id="iconThree" class="fa fa-download" aria-hidden="true"></i><i id="iconFour" class="fa fa-clone" aria-hidden="true"></i></h1>
+      <h4>Find the Epicodus track that is right for you!</h4>
     </div>
     <div class="container">
       <form id="userInput">
@@ -98,10 +100,12 @@
             C) PHP/Drupal
           </label>
         </div>
-        <button type="submit" class="btn">Find out your track!</button>
+        <div class="movebutton">
+          <button type="submit" class="btn">Find out your track!</button>
+        </div>
       </form>
       <div class="answer">
-        <h2>Based on your answers and the will of the gods and goddesses, the track you should choose is <span class="recommendedTrack"></span>. Now what are you waiting for? Apply to your Epicodus track!</h2>
+        <h4>Based on your answers and the will of the gods and goddesses, the track you should choose is <span class="recommendedTrack"></span>. Now what are you waiting for? Apply to your Epicodus track!</h4>
       </div>
     </div>
   </body>

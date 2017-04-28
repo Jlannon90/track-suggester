@@ -2,13 +2,67 @@
   display: none;
 }
 
-.jumbotron{
-  border-style: dashed;
+body {
+  background-image: url(https://static.pexels.com/photos/249798/pexels-photo-249798.png);
+}
+
+.jumbotron {
+  border-style: groove;
   border-width: medium;
   border-color: black;
+  background-color: white;
   text-align: center;
+  font-family: 'Rationale', sans-serif;
+  margin-top: 30px;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.jumbotron h1 {
+  text-decoration: underline;
+}
+
+.jumbotron h4 {
+  font-family: 'Noto Serif', serif;
+}
+
+#iconOne {
+  margin-right: 100px;
+}
+
+#iconTwo {
+  margin-right: 100px;
+}
+
+#iconThree {
+  margin-left: 100px;
+}
+
+#iconFour {
+  margin-left: 100px;
+}
+
+.container {
+  border-style: groove;
+  border-width: medium;
+  border-color: black;
+  background-color: white;
+  margin-bottom: 30px;
+  font-family: 'Rationale', sans-serif;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.movebutton {
+  text-align: center;
+  margin-bottom: 20px;
 
 }
-.container {
 
+.radio {
+  padding-left: 20px;
+  font-family: 'Noto Serif', serif;
 }

@@ -14,7 +14,7 @@ $(function() {
     } else {
       $(".recommendedTrack").text("whatever you want it to be. You either have interests all across the board or just don't want to waste time with this quiz");
     }
-    
+
     $(".answer").show();
   });
 });
