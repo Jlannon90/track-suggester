@@ -9,6 +9,97 @@
     <title>Track Suggester</title>
   </head>
   <body>
-
+    <div class="jumbotron">
+      <h1>Track Suggester Quiz</h1>
+      <h5>Find the Epicodus track that is right for you!</h5>
+    </div>
+    <div class="container">
+      <form id="userInput">
+        <h2>What type of work do you think you'd enjoy most?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfWork" value="designOne">
+            A) I enjoy making things aesthetically pleasing as well as functional.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfWork" value="rubyOne">
+            B) I want to make interactive sites so the user can have fun while exploring it.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfWork" value="phpOne">
+            C) I want to make sites that provide lots of information and content to the user.
+          </label>
+        </div>
+        <h2>Would you rather work on mostly front end or back end programming?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="end" value="designTwo">
+            A) Front end
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="end" value="rubyPhpTwo">
+            B) Back end
+          </label>
+        </div>
+        <h2>Do you like working on websites or apps?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfSite" value="designThree">
+            A) Doesn't matter so long as it looks good and functions well...
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfSite" value="rubyThree">
+            B) Apps for the win!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="typeOfSite" value="phpThree">
+            C) No way, websites are where it's at!
+          </label>
+        </div>
+        <h2>Does asking users for their information make you uncomfortable?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="privacy" value="phpDesignFour">
+            A) Yes, just taking this survey feels like an invasion of my privacy. I don't want to make other people feel that way.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="privacy" value="rubyDesignFour">
+            B) Nah, how else will we learn about the people using our site in order to better serve them?
+          </label>
+        </div>
+        <h2>Last but not least, read Epicodus' course descriptions. Which track speaks to your heart?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="track" value="designFive">
+            A) CSS/Design
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="track" value="rubyFive">
+            B) Ruby/Rails
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="track" value="phpFive">
+            C) PHP/Drupal
+          </label>
+        </div>
+        <button type="submit" class="btn">Find out your track!</button>
+      </form>
+    </div>
   </body>
 </html>
