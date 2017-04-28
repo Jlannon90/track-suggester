@@ -49,6 +49,22 @@ body {
   background-color: white;
   margin-bottom: 30px;
   font-family: 'Rationale', sans-serif;
+  font-size: 26px;
+
+
+}
+
+.form-group {
+  text-align: center;
+  font-family: 'Rationale', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+
+}
+
+.nameLabel {
+  font-weight: lighter;
+
 }
 
 .btn {
@@ -65,4 +81,7 @@ body {
 .radio {
   padding-left: 20px;
   font-family: 'Noto Serif', serif;
+  font-weight: normal;
+  font-size: 14px;
+
 }
