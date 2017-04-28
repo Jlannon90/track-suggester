@@ -1,4 +1,16 @@
-.answer {
+.recommendDesign {
+  display: none;
+}
+
+.recommendRuby {
+  display: none;
+}
+
+.recommendPhp {
+  display: none;
+}
+
+.recommendOther {
   display: none;
 }
 
