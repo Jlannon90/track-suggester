@@ -97,3 +97,22 @@ body {
   font-size: 14px;
 
 }
+
+img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 10px;
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  border-radius: 3%;
+  padding: 10px;
+}
+
+.col-md-9 h4 {
+  padding-top: 20px;
+}
+.photos {
+  text-align: center;
+
+}
